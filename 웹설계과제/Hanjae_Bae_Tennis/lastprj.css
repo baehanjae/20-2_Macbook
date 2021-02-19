@@ -1,0 +1,154 @@
+
+body {
+    font-size: 1.2em;
+    color: black;
+    font-family: "¸¼Àº °íµñ";
+}
+
+
+
+
+header, footer {
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+header {
+    background-color: lightgrey;
+    border: 1px solid blue;
+    color: green;
+}
+
+h1#header_h1 {
+    color: green;
+    width : 400px;
+    animation-name : headerMoving;
+    animation-duration: 4s;
+    animation-iteration-count : infinite;
+}
+
+@keyframes headerMoving {
+    0% {}
+    50% {transform: translate(300px, 0px);}
+    100% {transform: translate(0px, 0px);}
+}
+
+nav {
+    background-color: darkgrey;
+    border: 1px solid blue;
+    color: blue;
+    height: auto;
+}
+
+a#lastNav {
+    float:right;
+    text-decoration:underline;
+}
+
+a.link {
+    padding-top : 2px;
+    padding : 3px;
+    border-right-width : 2px;
+    border-right-style : solid;
+    border-right-color : red;
+}
+
+a:hover.link {
+    background-color: yellow;
+    transform: scale(0.5,0.5);
+}
+
+div.menu {
+}
+
+    div.menu:hover a {
+        display: block
+    }
+
+    div.menu a {
+        display: none;
+    }
+
+        div.menu a:hover {
+            background-color: cornflowerblue
+        }
+
+
+
+aside {
+    border: 1px solid blue;
+}
+
+#left {
+    padding: 4px 2px 7px 4px;
+    margin: 4px 7px 2px 5px;
+    float: left;
+    width: 30%;
+    height: 500px;
+}
+
+ #yellow{
+    border: 1px solid yellow;
+}
+
+article {
+    padding: 4px 2px 7px 4px;
+    margin: 4px 7px 2px 4px;
+    float: left;
+    width: 50%
+}
+
+#mainCenter{
+    height : 150px;
+    width : 300px;
+    background-color: purple;
+    color:yellow;  
+
+}
+
+div#mainCenter:hover {
+    transform: rotate(360deg);
+    transition: 3s;
+}
+
+
+#right {
+    padding: 4px 2px 7px 4px;
+    margin: 4px 0px 2px 5px;
+    float: left;
+    width: 14%;
+    height: 500px;
+}
+
+footer {
+    background-color: lightgrey;
+    border: 1px solid blue;
+    clear: both;
+    color: green;
+    height: 100px;
+}
+
+#img {
+    width: 60px;
+    height: 60px;
+    transform: translate(500px,-100px);
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+
+@keyframes example{
+    0% {background-colo;
+    }
+
+    50% {
+        transform: translate(500px, -300px);
+    }
+
+    100% {
+        transform: translate(500px, -100px);
+    }
+}

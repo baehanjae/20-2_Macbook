@@ -1,0 +1,55 @@
+catalog {
+    background-color: white;
+    width: 100%;
+}
+cd {
+    height: 140px;
+        width: 300px;
+    background: cyan;
+        border: 1px solid black;
+
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+    font-family:Arial, "Times New Roman", Times, serif;
+}
+cd {transform: rotate(20deg);}
+
+title {
+    display: block;
+    color: black;
+    background-color: pink;
+    font-size: 20pt;
+}
+title {transform: rotate(20deg);}
+
+artist {
+    color: #0000ff;
+    background-color: yellow;
+    font-size: 20pt;
+}
+artist {transform: rotate(-20deg);}
+ year {
+    color: #000000;
+    background-color: blue;
+    float: right;
+}
+country{
+    display: block;
+    color: blue;
+    text-shadow: offset-x;
+    
+}
+
+price{
+    display: block;
+    color: #000000;
+    background-color: orange;
+}
+
+company{
+    display: block;
+    color: black;
+}
+
+}

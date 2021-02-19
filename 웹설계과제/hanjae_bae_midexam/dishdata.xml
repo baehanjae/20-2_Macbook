@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "dishdata.xsl"?>
+<special-menu>
+<menu-date>Friday, July 28, 2000</menu-date>
+<special-meat price="24.50">Pork chops with Lemon
+&amp; Apples</special-meat>
+<special-appetizer price="3.95">Korean pears with
+Gorgonzola and Walnuts</special-appetizer>
+<special-soup price="6.95">Potato with mushroom and 
+Pepper</special-soup>
+<special-fish price="18.50">Raw salmon with Lemon
+and Spinach</special-fish>
+<special-pasta price="12.25">Pasta mixed with abalone  
+(with side salad)</special-pasta>
+<special-sweet price="12.95">Strawberry and
+Chocolate Tart</special-sweet>
+</special-menu>
